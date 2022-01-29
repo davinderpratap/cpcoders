@@ -1,0 +1,77 @@
+ .bd{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold !important;
+ }
+ .social{
+   position: absolute;
+   right: 0 !important;
+ }
+ 
+ .topnav {
+    display: flex;
+    background-color: #4ECCA3;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border-radius:5px !important;
+    align-items: center;
+    box-shadow: 0 0 20px black ;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav .NavLink {
+    float: left; 
+     display: block;
+    color: #393E46 !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    font-size: 17px;
+    font-weight: 900;
+  }
+
+ 
+  /* Change the color of links on hover */
+  .topnav .NavLink:hover {
+    background-color: #565d68!important;
+    color: white !important;
+    border-radius: 5px;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav NavLink.active_class {
+    background-color: #565d68;
+    color: white !important;
+    border-radius: 5px;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+.avatar {
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  border-radius: 50% !important;
+  margin-right: 30px;
+  width: 30px ;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* height: 40px;
+  width: 40px; */
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-avatar{
+  color: #393E46 !important;
+  margin-right: 10px;
+  }
+  .btn-avatar:hover{
+    background-color: #3fa885  !important;
+  }
